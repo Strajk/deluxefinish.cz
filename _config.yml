@@ -1,0 +1,7 @@
+# Site settings
+title: De Luxe Finish
+email: strajk@me.com
+description: > # this means to ignore newlines until "baseurl:"
+  Kadeřnický salón De Luxe Finish. Pánské, dámské a dětské prestižní kadeřnický salón v centru Kroměříže. Otevírací doba dle objednávek.
+baseurl: ""
+url: "http://deluxefinish.cz"

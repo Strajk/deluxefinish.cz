@@ -1,0 +1,138 @@
+/* Background */
+#body {background: transparent url(../images/gui/nahore-bg.png) repeat-x center top;}
+#root {background: transparent url(../images/gui/nahore-tomas.png) no-repeat center 100px;}
+
+/* Nahore */
+#section-nahore {height: 640px; position: relative;}
+#section-nahore-logo {position: absolute; left: 160px; top: 50px; display: block; width: 620px; height: 140px; text-indent: -9999px; background: transparent url(../images/gui/nahore-logo.png) no-repeat left center;}
+#section-nahore-privitani {position: absolute; left: 360px; top: 300px; width: 340px;}
+#section-nahore-privitani-signature {font-style: italic;}
+#section-nahore-kontakt {position: absolute; top: 280px; right: -20px;}
+#section-nahore-kontakt a {display: block; width: 260px; height: 300px; background: transparent url(../images/gui/nahore-kontakt.png) no-repeat center top; text-indent: -9999px;}
+#section-nahore-kontakt a:hover {background-position: center bottom;}
+
+/* Expo */
+#section-expo {position: relative; z-index: 10;}
+#section-expo-border-top {position: absolute; left: 0px; top: -20px; width: 100%; height: 20px; background: transparent url(../images/gui/expo-border-top.png) repeat-x center center;}
+#section-expo-border-bottom {position: absolute; left: 0px; bottom: -30px; width: 100%; height: 30px; background: transparent url(../images/gui/expo-border-bottom.png) repeat-x center center;}
+#section-expo-montage {position: relative; overflow: hidden; height: 500px; background: #ff0040;}
+#section-expo-montage #am-container {position: relative; overflow: hidden; height: 500px;}
+#section-expo-montage a {margin: 0; padding: 0; float: left; position: relative; overflow: hidden;}
+#section-expo-montage a img {margin: 0; padding: 0; outline:none; position: absolute;}
+
+#section-nav {height: 200px; margin-bottom: -70px;}
+#section-nav {text-indent: -9999px; background: transparent url(../images/gui/nav-bg.png) repeat-x center top;}
+#section-nav .container {margin-top: -5px; padding-top: 20px;}
+#section-nav ul {margin: -10px 0; width: 940px; height: 70px; background: url(../images/gui/nav.png) no-repeat center top; z-index: 100;}
+#section-nav li {float: left;}
+#section-nav li a {display: block; height: 70px; background: url(../images/gui/nav.png) no-repeat;}
+#section-nav li.nav-item-nahore a {width: 126px; background-position: -10px 0px}
+#section-nav li.nav-item-nahore.active a {background-position: -10px -80px}
+#section-nav li.nav-item-novinky a {width: 126px; background-position: -136px 0px}
+#section-nav li.nav-item-novinky.active a {background-position: -136px -80px}
+#section-nav li.nav-item-deluxefinish a {width: 163px; background-position: -262px 0px}
+#section-nav li.nav-item-deluxefinish.active a {background-position: -262px -80px}
+#section-nav li.nav-item-uspechy a {width: 128px; background-position: -425px -0px}
+#section-nav li.nav-item-uspechy.active a {background-position: -425px -80px}
+#section-nav li.nav-item-historie a {width: 128px; background-position: -553px 0px}
+#section-nav li.nav-item-historie.active a {background-position: -553px -80px}
+#section-nav li.nav-item-portfolio a {width: 139px; background-position: -681px 0px}
+#section-nav li.nav-item-portfolio.active a {background-position: -681px -80px}
+#section-nav li.nav-item-kontakt a {width: 130px; background-position: -820px 0px}
+#section-nav li.nav-item-kontakt.active a {background-position: -820px -80px}
+
+#section-novinky {padding-top: 70px;}
+#section-novinky header h2 {background-image: url(../images/gui/header-novinky.png);}
+
+a, a:hover, a:active, a:focus {outline: 0;}
+.slider {margin: 0 -10px; padding-bottom: 70px;}
+.slider .slider-init.slider-three {width: 700px;}
+.slider .slider-init.sli der-four {width: 960px;}
+.slider .slider-item {float: left; width: 240px;}
+.slider .slider-item .frame {padding: 0px;}
+
+.slider .bx-wrapper .bx-pager {position: absolute; bottom: -60px; text-align: center; width: 100%; height: 50px; white-space: nowrap; letter-spacing: 10px;}
+.slider .bx-wrapper .bx-pager .pager-link {display: inline-block; width: 50px; height: 50px; background: transparent url(../images/gui/common-pagination-list.png) no-repeat 0px 0px; text-indent: -9999px;}
+.slider .bx-wrapper .bx-pager .pager-link {*display: inline; *margin: 0 20px 0 20px;} /* IE */
+.slider .bx-wrapper .bx-pager .pager-link.pager-active {background-position: 0px -50px;}
+.slider .bx-wrapper .bx-prev, .slider .bx-wrapper .bx-next {position: absolute; bottom: -70px; display: block; width: 70px; height: 70px; text-indent: -9999px;}
+.slider .bx-wrapper .bx-prev {left: 0px; background: url(../images/gui/common-pagination-left.png) no-repeat 0px 0px;}
+.slider .bx-wrapper .bx-next {right: 0px; background: url(../images/gui/common-pagination-right.png) no-repeat 0px 0px;}
+.slider .bx-wrapper .bx-next:hover, .slider .bx-wrapper .bx-prev:hover {background-position: 0px -70px;}
+
+
+.frame .image {width: 240px; height: 240px; background: url(../images/gui/common-frame-normal.png); position: relative;}
+.frame .image img {margin: 10px; width: 220px; height: 220px;}
+.frame .image .image-overlay {display: none; position: absolute; left: 10px; top: 10px; width: 220px; height: 220px;}
+.frame .image .image-overlay-plus {background: url(../images/gui/common-frame-hover-plus.png) no-repeat;}
+.frame .image .image-overlay-zoom {background: url(../images/gui/common-frame-hover-zoom.png) no-repeat;}
+.frame .caption {text-align: center; margin-top: 10px; padding: 10px;}
+.frame .caption .caption-date {font-family: 'Georgia', serif; font-size: 14px; color: #80797c; font-style: italic;}
+.frame .caption .caption-title {font-family: 'GeogrotesqueMedium', sans-serif; font-size: 18px; line-height: 20px; color: #ffee33;}
+
+
+.imagebox-panel {position: relative; width: 940px; height: 300px; overflow: hidden;}
+.imagebox-img {position: absolute; border: none; text-decoration: none;}
+
+#section-deluxefinish {}
+#section-deluxefinish header h2 {background-image: url(../images/gui/header-deluxefinish.png);}
+#section-deluxefinish-galerie {margin-top: 30px; margin-right: -10px; float: right; width: 480px;}
+#section-deluxefinish-galerie .frame {float: left; margin-bottom: 20px;}
+#section-deluxefinish-galerie .frame.right {margin-left: 0px;}
+#section-deluxefinish-povidani {width: 460px; margin-top: 62px;}
+#section-deluxefinish-povidani-loga {margin-top: 30px;}
+#section-deluxefinish-povidani-sluzby {margin-top: 20px;}
+
+#section-uspechy {}
+#section-uspechy header h2 {background-image: url(../images/gui/header-uspechy.png);}
+
+#section-historie {}
+#section-historie header h2 {background-image: url(../images/gui/header-historie.png);}
+#section-historie-cihla {margin-top: 30px;}
+#section-historie-povidani {margin-left: 60px; width: 520px; float: left;}
+#section-historie-osa {padding-top: 50px; margin-left: 600px; width: 340px;}
+#section-historie-osa .item {margin-bottom: 20px;}
+#section-historie-osa .item .date {}
+#section-historie-osa .item h6 {font-family: 'GeogrotesqueMedium', sans-serif; font-size: 18px; line-height: 20px; color: #ffee33;}
+
+
+#section-portfolio .slider .bx-wrapper .bx-window {height: 240px;}
+#section-portfolio .item {margin-bottom: 100px;}
+#section-portfolio .item-head {width: 220px; float: left; height: 231px; position: relative;}
+#section-portfolio .item-body {width: 700px; float: left;}
+#section-portfolio header h2 {background-image: url(../images/gui/header-portfolio.png);}
+#section-portfolio .item-head h3 {font-family: 'GeogrotesqueMedium', sans-serif; font-size: 24px; line-height: 30px; color: #ffee33; margin-bottom: 20px;}
+#section-portfolio .item-head .credits li {margin-bottom: 20px;}
+#section-portfolio .item-head .credits .role {font: 12px/22px 'GeogrotesqueRegular', sans-serif; text-transform: uppercase;}
+#section-portfolio .item-head .credits .name {font: 18px/20px; display: block;}
+.section-portfolio-button-album-on-facebook {position: absolute; left: -10px; bottom: -70px; display: block; width: 220px; height: 51px; background: url(../images/gui/portfolio-button-album-on-facebook.png) no-repeat 0px 0px; text-indent: -9999px;}
+.section-portfolio-button-album-on-facebook:hover {background-position: 0px -60px;}
+.section-portfolio-button-album-on-facebook.clicked {background-position: 0px -120px;}
+#section-portfolio-button-more {margin-left: 270px; margin-top: -80px;}
+#section-portfolio-button-more a {display: block; width: 600px; height: 51px; background: url(../images/gui/portfolio-button-more.png) no-repeat 0px 0px; text-indent: -9999px;}
+#section-portfolio-button-more a:hover {background-position: 0px -60px;}
+#section-portfolio-button-more a.clicked {background-position: 0px -120px;}
+
+
+#section-kontakt {}
+#section-kontakt .container {position: relative;}
+#section-kontakt header h2 {background-image: url(../images/gui/header-kontakt.png);}
+#section-kontakt-vlevo {float: left; width: 580px; height: 500px; position: relative;}
+#section-kontakt-vlevo-povidani {float: left; width: 340px;}
+#section-kontakt-vlevo-adresa {margin-left: 360px; width: 220px;}
+#section-kontakt-vlevo-mapa {position: absolute; left: 0px; bottom: 0px; clear: left; width: 580px; height: 310px; background: url(../images/gui/kontakt-mapa.png) no-repeat;}
+#section-kontakt-vlevo-mapa .wrapee {width: 580px; height: 300px;}
+
+#section-kontakt-vpravo {position: absolute; left: 580px; width: 360px; height: 500px;}
+#section-kontakt-vpravo-dopis {width: 380px; height: 500px; background: url(../images/gui/kontakt-dopis.png) no-repeat; color: #333;}
+#section-kontakt-vpravo-dopis .wrappee {padding: 30px;}
+#section-kontakt-vpravo-dopis-button {display: block; width: 180px; height: 50px; background: url(../images/gui/kontakt-dopis-button.png) no-repeat 0px 0px; text-indent: -9999px;}
+#section-kontakt-vpravo-dopis-button:hover {background-position: 0px -50px;}
+#section-kontakt-vpravo-dopis-button.clicked {background-position: 0px -100px;}
+
+#section-kontakt-vpravo-dopis dl.text input {width: 300px;}
+#section-kontakt-vpravo-dopis dl.textarea textarea {width: 300px; height: 200px;}
+#section-kontakt-vpravo-dopis dl.submit {text-align: center;}
+#section-kontakt-vpravo-dopis dl.submit a {margin: 0 auto;}
+
+dl dt {line-height: 20px; margin-bottom: 4px; margin-top: 10px;}

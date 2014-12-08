@@ -1,0 +1,131 @@
+'2012-wildStyleEgypt':
+    title: 'Wild Style Egypt'
+    date: '2012'
+    facebook: 'http://www.facebook.com/media/set/?set=a.300884793317064.72177.103768483028697'
+    images: 10
+    credits:
+        - role: 'Make-up'
+          name: 'Lucie Jurtíková'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+
+
+'2011-anotherDimension':
+    title: 'Another Dimension'
+    date: '2011'
+    facebook: 'http://www.facebook.com/media/set/?set=a.228321027240108.57566.103768483028697'
+    images: 13
+    credits:
+        - role: 'Make-up'
+          name: 'Jeanette Zapletalová'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+
+
+'2010-TVA':
+    title: 'Trend Vision Award 2010'
+    date: '2010'
+    facebook: 'http://www.facebook.com/media/set/?set=a.104513689620843.7960.103768483028697'
+    images: 2
+    credits:
+        - role: 'Modelka'
+          name: 'Zuzana Štěrbová'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+        - role: 'Make-up'
+          name: 'Jeanette Zapletalová'
+
+
+'2010-streetboy':
+    title: 'Streetboy'
+    date: '2010'
+    facebook: 'http://www.facebook.com/media/set/?set=a.103805426358336.6718.103768483028697&type=1'
+    images: 4
+    credits:
+        - role: 'Model'
+          name: 'Josef Nykrmajer'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+
+
+
+'2010-dite':
+    title: 'For Kids'
+    date: '2010'
+    facebook: 'http://www.facebook.com/media/set/?set=a.304893089582901.73141.103768483028697'
+    images: 4
+    credits:
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+
+
+'2010-circus':
+    title: 'Circus'
+    date: '2010'
+    facebook: 'http://www.facebook.com/media/set/?set=a.123909411014604.23807.103768483028697'
+    images: 4
+    credits:
+        - role: 'Make-up'
+          name: 'Jeanette Zapletalová, Helena Župková'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+
+
+'2009-TVA':
+    title: 'Trend Vision Award 2009'
+    date: '2009'
+    facebook: 'http://www.facebook.com/media/set/?set=a.103796233025922.6696.103768483028697'
+    images: 2
+    credits:
+        - role: 'Modelka'
+          name: 'Hana Kopecká'
+        - role: 'Make-up'
+          name: 'Tomáš Moučka'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+        - role: 'Módní návrhář'
+          name: 'Benjamin Ryšavý'
+
+
+'2009-CIT':
+    title: 'Creative Image Team 2010'
+    date: '2009'
+    facebook: 'http://www.facebook.com/media/set/?set=a.103802093025336.6710.103768483028697'
+    images: 6
+    credits:
+        - role: 'Make-up'
+          name: 'Jeanette Zapletalová'
+        - role: 'Fotografka'
+          name: 'Michaela Králová'
+        - role: 'Módní návrhář'
+          name: 'Benjamin Ryšavý'
+
+
+'2008-TVA':
+    title: 'Trend Vision Award 2008'
+    date: '2008'
+    facebook: 'http://www.facebook.com/media/set/?set=a.103786519693560.6672.103768483028697'
+    images: 2
+    credits:
+        - role: 'Fotograf'
+          name: 'Marek Mucha'
+
+
+'2007-TVA':
+    title: 'Trend Vision Award 2007'
+    date: '2007'
+    facebook: 'http://www.facebook.com/media/set/?set=a.103785419693670.6668.103768483028697'
+    images: 2
+    credits:
+        - role: 'Fotografka'
+          name: 'Klára Stojaníková'
+
+
+'2007-plakat':
+    title: 'Ruffle Wavy Hair'
+    date: '2007'
+    facebook: 'http://www.facebook.com/media/set/?set=a.304895006249376.73145.103768483028697'
+    images: 3
+    credits:
+        - role: 'Fotografka'
+          name: 'Klára Stojaníková'

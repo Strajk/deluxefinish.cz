@@ -1,0 +1,40 @@
+/* Lists */
+ul.icons li {line-height: 30px;}
+ul.icons li {padding-left: 40px;background-position: 0px 0px; background-repeat: no-repeat;}
+ul.icons li.bullet {background-image: url(../images/gui/icon-bullet.png);}
+
+/* Slider */
+
+
+hr {margin: 20px 0; height: 110px; background: transparent url(../images/gui/common-hr.png); clear: both; border: 0; outline: 0;}
+section header {text-align: center; padding-bottom: 50px}
+/* Sizing */
+body {}
+h1 {text-align: center;}
+h2 {text-align: center; height: 60px; line-height: 60px; text-indent: -9999px;}
+h3 {}
+h4 {}
+h5 {}
+h6.slogan {margin-bottom: 20px; font-size: 30px; line-height: 30px; font-family: 'GeogrotesqueLight', 'Helvetica', 'Arial', sans-serif; color: #ffee33; font-weight: normal;}
+h6.slogan strong {font-family: 'GeogrotesqueMedium', 'Helvetica', 'Arial', sans-serif;}
+p {font-size: 14px; line-height: 24px;}
+ul.bullets {margin: 0 0 10px 20px; list-style: disc;}
+ul.bullets li {font-size: 14px; line-height: 30px;}
+.caption-title {font: 18px/20px 'GeogrotesqueMedium', 'Helvetica', 'Arial', sans-serif;}
+
+.hidden {display: none;}
+
+body {
+	background: #191919;
+	color: #ccc;
+	font-family: Georgia, sans-serif;
+	font-size: 14px;
+	a {color: #ffee33; text-decoration: none;}
+	a:hover {color: #ffbf00;}
+	a:visited {color: #ffee33;}
+}
+
+h2 {margin: 0 -10px;}
+
+.fancybox-content-html {color: #ccc;}
+
